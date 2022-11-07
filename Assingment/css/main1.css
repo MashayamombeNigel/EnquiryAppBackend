@@ -1,0 +1,149 @@
+.container{
+
+width: 100%;
+
+position:  relative;
+
+height:600px;
+}
+
+body{
+	font-family: sans-serif;
+	background:  #eee;
+}
+*{
+	margin: 0px;
+	padding:0px;
+}
+.formbox{
+    position:relative;
+   margin-top: 90px;
+   margin-bottom: 90px;
+    left: 35%;
+    width: 364px;
+    border: 1px solid black;
+    background: wheat;
+    height: 278px;
+    padding: 19px;
+    border-radius:  11px;
+}
+input[type="text"] {
+	border: 1px solid #9370db4a;
+	width: 96%;
+	height:  36px;
+	border-radius:  5px;
+	padding-left: 10px;
+	margin-bottom:  11px;
+}
+
+input[type="password"] {
+    border: 1px solid #9370db4a;
+    width: 96%;
+    height: 36px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom:  13px;
+}
+h2 {
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height:  47px;
+    border-radius:  6px;
+    cursor:  pointer;
+    color: black;
+    background: #fff;
+    border: 1px solid slategrey;
+}
+input[type="submit"]:hover{
+    background: black;
+    color: #fff;}
+.header {
+    width: auto;
+    color: white;
+    height:  30px;
+    padding:  23px;
+    background:  black;
+}
+.header ul {
+    list-style:  none;
+}
+
+.header ul li {
+    float:  right;
+    margin-right: 30px;
+}
+
+.header ul li a {
+    text-decoration:  none;
+    color:  white;
+}
+.header ul li a:hover {
+    color: crimson;
+}
+.user_info {
+    position:  absolute;
+    left:  69px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    background-color: wheat;
+    color :black ;
+    
+   
+    border: 1px solid black;
+    
+  }
+  
+  th,td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:black;
+    color:white;
+  }
+#table{
+    padding: 1.6rem;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 600px;
+}
+  footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1.6rem;
+    margin: 13px;
+    line-height: 2px;
+    border-radius: 2px;
+  }
+  footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+  }
+  .frm-update{
+    
+        padding-left: 5px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 3px solid black;
+      
+
+
+  }
+  
+  
